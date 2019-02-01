@@ -1,0 +1,18 @@
+$bp: (
+    m: 640px,
+    l: 1024px
+);
+
+@for $i from 1 through 20 {
+    .cols-#{$i * 5} { //interpolar variables
+        width: $i * 5%;
+    }
+}
+
+@media screen and (min-width: map-get($bp, m)){ //funciones separadas con -
+    @for $i from 1 through 20 {
+        .cols-m-#{$i * 5} { //interpolar variables
+            width: $i * 5%;
+        }
+    }
+}

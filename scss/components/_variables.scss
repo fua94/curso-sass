@@ -1,0 +1,27 @@
+//variables
+
+//numericas
+$number: 1;
+$number2: 10px;
+$number3: 20s;
+
+//texto
+$string: 'Valor';
+$string2: none;
+
+//colores
+$color: red;
+$color2: hsl(200,100,50);
+$color3: #aaff99;
+
+//listas
+$list: 1px solod red;
+$list2: primary, secondary, tertiary;
+$boolean: true;
+
+//objeto
+$map: (
+    primary: red,
+    secondary: green,
+    tertiary: blue,
+);
